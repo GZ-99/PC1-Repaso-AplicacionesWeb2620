@@ -68,7 +68,7 @@ Aquí vas a crear los archivos "en.json" y "es.json, basandote en lo que se desc
 Para complementar, se crea el archivo "i18n.js", dentro de src, y también se aumenta contenido en el archivo "main.js":
 
 <img src="imagenes/i18n-content.png">
-<br>
+
 <img src="imagenes/main1.png">
 
 ### Shared
@@ -83,7 +83,7 @@ Volviendo a shared, seguimos con la carpeta "presentation/components" y desarrol
 Dentro del proyecto, hay que crear los archivos ".env.development" y ".env.production", que tienen el mismo contenido (El url te lo dan en el examen):
 
 <img src="imagenes/caso-p4.png">
-<br>
+
 <img src="imagenes/environment.png">
 
 Así creas los keys:
