@@ -1,0 +1,12 @@
+{
+  "title": "The interactive Species Encyclopedia",
+  "featured": "Featured Species",
+  "card": {
+    "more-info": "More info",
+    "share-info": "Share Information"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 SpeciesFYI. All rights reserved.",
+    "developed-by": "Developed by {author}"
+  }
+}

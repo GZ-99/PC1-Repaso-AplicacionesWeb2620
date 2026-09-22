@@ -1,0 +1,12 @@
+{
+  "title": "La Enciclopedia interactiva de Especies",
+  "featured": "Especies Destacadas",
+  "card": {
+    "more-info": "Más información",
+    "share-info": "Buscar Información"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 SpeciesFYI. All rights reserved.",
+    "developed-by": "Desarrollado por {author}"
+  }
+}
