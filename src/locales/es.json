@@ -2,6 +2,9 @@
   "title": "La Enciclopedia interactiva de Especies",
   "featured": "Especies Destacadas",
   "card": {
+    "about-info": "Acerca",
+    "conservation-info": "Estado de Conservación",
+    "diet-info": "Dieta",
     "more-info": "Más información",
     "share-info": "Buscar Información"
   },

@@ -22,7 +22,6 @@ export class Result {
         this.is_featured = is_featured;
     }
 
-
     getId() {
         return this.id;
     }
