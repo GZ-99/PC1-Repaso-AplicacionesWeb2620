@@ -76,7 +76,7 @@ Para complementar, se crea el archivo "i18n.js", dentro de src, y también se au
 Volviendo a shared, seguimos con la carpeta "presentation/components" y desarrollas los archivos:
 
 * footer-content: Tienes que adaptarlo con el texto que pusiste en los archivos de "locales"
-* language-switcher: Eso es copiar y pegar (Para que funcione, tienes que volver a modificar el archivo "main.js")
+* language-switcher: Eso es copiar y pegar (Para que funcione, tienes que volver a modificar el archivo "main.js" y luego creas el archivo "style.css")
 
 <img src="imagenes/main-update.png">
 
