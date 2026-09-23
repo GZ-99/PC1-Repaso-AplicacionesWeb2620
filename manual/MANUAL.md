@@ -134,6 +134,20 @@ Finalmente, en la carpeta "presentation/components", desarrollas los archivos de
 * Finalmente, se desarrolla el archivo "result-list.vue", haces un copia y pega y cambias algunos textos:<br>
 <img src="imagenes/presentation2.png">
 
-### TERMINAR PROYECTO
+## TERMINAR PROYECTO
 
+### Shared
 
+Desarrollas el archivo layout.vue, donde vas a conectar todo lo que haz hecho
+
+### Archivo "App.vue"
+
+Finalmente, en este archivo, copias y pegas esto:
+
+<img src="imagenes/app.png">
+
+### Opcional:
+
+Si te alcanza tiempo, cambias esto que esta en el archivo "index.html" por el nombre de la página del caso:
+
+<img src="imagenes/index.png">
