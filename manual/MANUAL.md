@@ -105,3 +105,16 @@ Volviendo a un archivo que creamos antes, ose "logo-dev-api.js", lo desarrollamo
 <img src="imagenes/logo-dev.png">
 
 ### Encyclopedia
+
+Antes de empezar, tienes que pegar la url en está página: https://app.quicktype.io/
+
+<img src="imagenes/quicktype.png">
+
+Al empezar, tienes que crear esta carpeta con esta estructura:
+
+<img src="imagenes/encyclopedia-estructura.png">
+
+Luego, desarrollas estos archivos:
+* Empiezas con el archivo entity, con su constructor y, por si acaso, sus getters.
+* Desarrollas los archivos "encyclopedia-api.js" y "result.assembler.js" (El archivo "encyclopedia-resource.js" se queda vacio, no preguntes)
+* 
