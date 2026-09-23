@@ -76,7 +76,9 @@ Para complementar, se crea el archivo "i18n.js", dentro de src, y también se au
 Volviendo a shared, seguimos con la carpeta "presentation/components" y desarrollas los archivos:
 
 * footer-content: Tienes que adaptarlo con el texto que pusiste en los archivos de "locales"
-* language-switcher: Eso es copiar y pegar
+* language-switcher: Eso es copiar y pegar (Para que funcione, tienes que volver a modificar el archivo "main.js")
+
+<img src="imagenes/main-update.png">
 
 ### Archivos environment y Vite
 
@@ -90,6 +92,8 @@ Así creas los keys:
 
 <img src="imagenes/key1.png">
 
+<img src="imagenes/key2.jpeg">
+
 Dentro de la carpeta src, creas el archivo "vite-env.d" y lo relacionas con los environments:
 
 <img src="imagenes/vite.png">
@@ -99,3 +103,5 @@ Dentro de la carpeta src, creas el archivo "vite-env.d" y lo relacionas con los 
 Volviendo a un archivo que creamos antes, ose "logo-dev-api.js", lo desarrollamos para conectarlo con los environment, especificamente con lo de "VITE_LOGO_API_URL" y "VITE_LOGO_PUBLISHABLE_API_KEY" (Esto solo es copiar y pegar)
 
 <img src="imagenes/logo-dev.png">
+
+### Encyclopedia
