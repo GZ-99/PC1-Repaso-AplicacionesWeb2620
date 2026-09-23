@@ -1,5 +1,8 @@
 # Repaso PC1 (Basado en el examén pasado)
 
+Repositorio de base 1: https://github.com/GZ-99/Catch-Up-AplicacionesWeb2620/tree/master
+Repositorio de base 2: https://github.com/GZ-99/Learning-Center-AplicacionesWeb2620/tree/master
+
 ## CREAR PROYECTO:
 
 Para empezar, creas el proyecto de esta manera:
@@ -117,4 +120,20 @@ Al empezar, tienes que crear esta carpeta con esta estructura:
 Luego, desarrollas estos archivos:
 * Empiezas con el archivo entity, con su constructor y, por si acaso, sus getters.
 * Desarrollas los archivos "encyclopedia-api.js" y "result.assembler.js" (El archivo "encyclopedia-resource.js" se queda vacio, no preguntes)
-* 
+* Se debe desarrollar el archivo "encyclopedia.store.js"
+
+Finalmente, en la carpeta "presentation/components", desarrollas los archivos de esta forma:
+* En el archivo "unavailable-content.vue", haces un copia y pega y cambias solo un texto:<br>
+<img src="imagenes/presentation1.png">
+* Después, en el archivo "result-item.js" se desarrolla de esta forma:<br>
+<img src="imagenes/caso-p5.png">
+<img src="imagenes/item1.png">
+<img src="imagenes/item2.png">
+<img src="imagenes/item3.png">
+<img src="imagenes/item4.png">
+* Finalmente, se desarrolla el archivo "result-list.vue", haces un copia y pega y cambias algunos textos:<br>
+<img src="imagenes/presentation2.png">
+
+### TERMINAR PROYECTO
+
+
