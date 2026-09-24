@@ -6,7 +6,7 @@ const encyclopediaApiOrigin = new URL(encyclopediaApiUrl).origin;
 export class ResultAssembler {
     static toEntitiesFromResponse(response) {
         if (response?.status !== 200) {
-            console.error(response.statusText);
+            console.error(response?.statusText || "Unexpected API response status");
             return [];
         }
 
@@ -24,8 +24,11 @@ export class ResultAssembler {
 
     static toEntityFromResource(resource = {}) {
         const imageUrl = resource.image_url
-            ? new URL(resource.image_url, `${encyclopediaApiOrigin}/`).toString()
-            : '';
+            ? new URL(
+                resource.image_url.replace(/^\/+/, ""),
+                "https://cdn.speciesfyi.com/"
+            ).toString()
+            : "";
 
         return new Result({
             ...resource,

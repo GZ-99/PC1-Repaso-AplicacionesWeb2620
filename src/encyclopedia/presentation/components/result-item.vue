@@ -112,8 +112,10 @@ const shareResult = async () => {
 
 <style scoped>
 .image-fit {
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
 }
 </style>

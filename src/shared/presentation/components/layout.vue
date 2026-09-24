@@ -1,11 +1,10 @@
 <script lang="js" setup>
 import {encyclopediaStore} from "@/encyclopedia/application/encyclopedia.store.js";
 import LanguageSwitcher from "./language-switcher.vue";
-import EncyclopediaList from "@/encyclopedia/presentation/components/result-list.vue";
-import UnavailableContent from "@/encyclopedia/presentation/components/unavailable-content.vue";
 import FooterContent from "./footer-content.vue";
 import {ref, computed, onMounted} from "vue";
 import ResultList from "@/encyclopedia/presentation/components/result-list.vue";
+import {useI18n} from "vue-i18n";
 
 const { t } = useI18n();
 
@@ -47,6 +46,12 @@ onMounted(() => {
       />
     </pv-drawer>
     <main class="content-padding">
+      <h1 class="page-title">
+        {{ t("title") }}
+      </h1>
+      <h2 class="featured-title">
+        {{ t("featured") }}
+      </h2>
       <ResultList
           v-if="results.length > 0"
           :results="results"/>
@@ -68,6 +73,16 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.page-title {
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.featured-title {
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
 .layout-container {
   display: flex;
   flex-direction: column;
