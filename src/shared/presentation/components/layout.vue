@@ -5,8 +5,14 @@ import FooterContent from "./footer-content.vue";
 import {ref, computed, onMounted} from "vue";
 import ResultList from "@/encyclopedia/presentation/components/result-list.vue";
 import {useI18n} from "vue-i18n";
+import {LogoDevApi} from "@/shared/infrastructure/logo-dev-api.js";
 
 const { t } = useI18n();
+
+const logoDevApi = new LogoDevApi();
+const logoUrl = logoDevApi.getUrlToLogo({
+  url: "https://speciesfyi.com",
+});
 
 const drawerVisible = ref(false);
 
@@ -33,6 +39,11 @@ onMounted(() => {
               text
               class="mr-2"
               @click="toggleDrawer"/>
+          <img
+              :src="logoUrl"
+              alt="SpeciesLogo"
+              class="logo"
+          />
         </template>
         <template #end>
           <language-switcher/>
@@ -73,6 +84,13 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 0.75rem;
+}
+
 .page-title {
   margin: 0 0 1rem;
   text-align: center;
