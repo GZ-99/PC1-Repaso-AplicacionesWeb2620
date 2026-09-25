@@ -159,4 +159,6 @@ Si te alcanza tiempo, cambias esto que esta en el archivo "index.html" por el no
 
 ## RESULTADO FINAL
 
-<img src="imagenes/final.png">
+<img src="imagenes/final1.png">
+
+<img src="imagenes/final2.png">
