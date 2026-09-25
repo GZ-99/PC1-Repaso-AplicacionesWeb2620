@@ -139,6 +139,22 @@ Finalmente, en la carpeta "presentation/components", desarrollas los archivos de
 * Finalmente, se desarrolla el archivo "result-list.vue", haces un copia y pega y cambias algunos textos:<br>
 <img src="imagenes/presentation2.png">
 
+### Universities (BC Alternativo)
+
+En caso de que te pidan cosas como esto:
+
+<img src="imagenes/caso-alternativo.png">
+
+Y tienes atributos como estos:
+
+<img src="imagenes/quicktype-alternativo.png">
+
+Entonces, haz algo como esto:
+
+<img src="imagenes/entity-alternativo.png">
+
+<img src="imagenes/item-alternativo.png">
+
 ## TERMINAR PROYECTO
 
 ### Shared
