@@ -1,11 +1,12 @@
 # Repaso PC1 (Basado en el examén pasado)
 
 Repositorio de base 1: https://github.com/GZ-99/Catch-Up-AplicacionesWeb2620/tree/master
+<br>
 Repositorio de base 2: https://github.com/GZ-99/Learning-Center-AplicacionesWeb2620/tree/master
 
 ## CREAR PROYECTO:
 
-Para empezar, creas el proyecto de esta manera:
+Para empezar, creas el proyecto de esta manera (Usa el nombre "pc116129u202416903"):
 
 <img src="imagenes/crear_proyecto.png">
 
@@ -103,9 +104,13 @@ Dentro de la carpeta src, creas el archivo "vite-env.d" y lo relacionas con los 
 
 ### Shared
 
-Volviendo a un archivo que creamos antes, ose "logo-dev-api.js", lo desarrollamos para conectarlo con los environment, especificamente con lo de "VITE_LOGO_API_URL" y "VITE_LOGO_PUBLISHABLE_API_KEY" (Esto solo es copiar y pegar)
+Volviendo a un archivo que creamos antes, ose "logo-dev-api.js", lo desarrollamos para conectarlo con los environment, especificamente con lo de "VITE_LOGO_API_URL" y "VITE_LOGO_PUBLISHABLE_API_KEY", y con respecto a lo de "LogoDevApi", lo sacas del examen y de Logo.dev
+
+<img src="imagenes/caso-logo.png">
 
 <img src="imagenes/logo-dev.png">
+
+<img src="imagenes/logo-dev-api.png">
 
 ### Encyclopedia
 
