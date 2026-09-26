@@ -3,6 +3,8 @@
 Repositorio de base 1: https://github.com/GZ-99/Catch-Up-AplicacionesWeb2620/tree/master
 <br>
 Repositorio de base 2: https://github.com/GZ-99/Learning-Center-AplicacionesWeb2620/tree/master
+<br>
+Otro repaso: https://github.com/GZ-99/PC1-Repaso-AplicacionesWeb2620-2
 
 ## CREAR PROYECTO:
 
@@ -42,7 +44,7 @@ Usar esta estructura:
 
 <img src="imagenes/shared-estructura.png">
 
-* Domain/Model: Desarollar los archivos "url.js", "string-validator" y "date-time":
+* Domain/Model: Desarollar los archivos "url.js", "string-validator.js" y "date-time.js":
 * Infrastructure: Desarollar el archivo "error.interceptor.js"
 * Ejecutamos estos comandos y nos aseguramos que en el archivo "package.json" esten instalados:
 ```sh
