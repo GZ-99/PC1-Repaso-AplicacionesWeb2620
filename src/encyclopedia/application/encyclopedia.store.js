@@ -4,7 +4,15 @@ import {reactive} from "vue";
 
 const encyclopediaApi = new EncyclopediaApi();
 const resultAssembler = new ResultAssembler();
-
+/**
+ * Reactive application store that coordinates use cases for encyclopedia management.
+ *
+ * @remarks
+ * In DDD, this serves as an Encyclopedia Service, managing the interaction
+ * between UI components and infrastructure-driven data acquisition.
+ *
+ * @type {encyclopediaStore}
+ */
 export const encyclopediaStore = reactive({
     results: [],
     errors: [],

@@ -2,7 +2,13 @@ import {Result} from "@/encyclopedia/domain/model/result.entity.js";
 
 const encyclopediaApiUrl = import.meta.env.VITE_ENCYCLOPEDIA_API_URL;
 const encyclopediaApiOrigin = new URL(encyclopediaApiUrl).origin;
-
+/**
+ * Infrastructure service that maps result data from API responses into Domain Entities.
+ *
+ * @remarks
+ * Following DDD patterns, this assembler acts as a Data Mapper between the
+ * infrastructure-specific result format and the Result domain entity.
+ */
 export class ResultAssembler {
     static toEntitiesFromResponse(response) {
         if (response?.status !== 200) {

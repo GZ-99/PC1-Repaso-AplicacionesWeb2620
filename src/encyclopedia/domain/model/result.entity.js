@@ -1,6 +1,19 @@
 import {StringValidator} from "@/shared/domain/model/string-validator.js";
 import {Url} from "@/shared/domain/model/url.js";
 
+/**
+ * Properties for creating a Result entity.
+ *
+ * @property {number} [id] - The id of the result.
+ * @property {string} [scientific_name] - Scientific Name of the result.
+ * @property {string} [common_name] - Common Name of the result.
+ * @property {string} [slug] - Slug of the result.
+ * @property {string} [genus_slug] - Genus Slug of the result.
+ * @property {string} [conservation_status] - Conservation Status of the result.
+ * @property {string} [Diet] - Diet of the result.
+ * @property {string|Url} [image_url] - The URL to the image of the result.
+ * @property {boolean} [is_featured] - The result Is Featured
+ */
 export class Result {
     constructor({id = 0, scientific_name = '', common_name = '',
                     slug = '', genus_slug = '', conservation_status = '',
