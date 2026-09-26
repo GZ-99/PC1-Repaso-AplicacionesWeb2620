@@ -1,6 +1,11 @@
 <script setup lang="js">
 import {useI18n} from "vue-i18n";
-
+/**
+ * Presentation component for the application footer.
+ *
+ * @remarks
+ * Displays attribution links, copyright information, and supports localization.
+ */
 const { t } = useI18n();
 </script>
 
